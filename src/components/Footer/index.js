@@ -22,6 +22,18 @@ const Footer = () => {
             </div>
           </a>
         </div>
+        <div class="logoLink">
+          <a href="https://www.linkedin.com/in/sada-pan-nord/">
+            <img
+              class="image"
+              src={require("../../assets/LinkedIn-Blue-21@2x.png")}
+              alt="LinkedIn logo"
+            />
+            <div class="middle">
+              <div class="text">Sada's LinkedIn Profile</div>
+            </div>
+          </a>
+        </div>
       </div>
     </footer>
   );
