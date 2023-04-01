@@ -100,15 +100,24 @@ header {
 .centering{
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: end;
 }
 
 .textBackground{
   box-shadow:inset 0 0 0 100px rgba(15, 15, 1, 0.2);
+  background-color: rgb(216, 102, 102);
   width: 400px;
   text-align: center; 
-  vertical-align:auto;
+  font-size: 1.5em;
+  margin-bottom: 5px;
 }
+.header {
+  background-image: url("./assets/2nd-cropped.jpg");
+  background-size:100%;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+  
 @media screen and (max-width:1000px) {
   .header {
     background-image: url("./assets/2nd-cropped.jpg");
@@ -130,13 +139,13 @@ header {
   }  .header {
     background-image: url("./assets/2nd-cropped.jpg");
     background-size:100%;
-    height: 350px;
+    /* height: 350px; */
     text-align: center;
     background-repeat: no-repeat;
   }.textBackground{
     box-shadow:inset 0 0 0 100px rgba(80, 11, 241, 0.2);
     width: 200px;
-    /* font-size: 2rem; */
+    font-size: 1rem;
     text-align: center;
     vertical-align:auto;
   }
@@ -144,21 +153,6 @@ header {
 }
 
 
-@media screen and (min-width:1400px) {
-  .header {
-    background-image: url("./assets/2nd-cropped.jpg");
-    background-size:100%;
-    height: 300px;
-    text-align: center;
-    background-repeat: no-repeat;
-  }.textBackground{
-    box-shadow:inset 0 0 0 100px rgba(15, 15, 1, 0.2);
-    width: 300px;
-    text-align: center; 
-    vertical-align:auto;
-  }
-  
-}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
