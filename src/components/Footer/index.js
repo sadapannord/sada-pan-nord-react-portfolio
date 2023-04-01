@@ -19,11 +19,11 @@ const Footer = () => {
                 alt="GitHub logo"
               />
               <div class="middle">
-                <div class="text">Sada's GitHub Repo</div>
+                <div class="text">GitHub Repo</div>
               </div>
             </a>
           </div>
-          <div class="col s1">
+          <div class="logoLink col s1">
             <a href="https://www.linkedin.com/in/sada-pan-nord/">
               <img
                 class="image linkedIn"
@@ -31,7 +31,7 @@ const Footer = () => {
                 alt="LinkedIn logo"
               />
               <div class="middle">
-                <div class="text">Sada's LinkedIn Profile</div>
+                <div class="text">LinkedIn Profile</div>
               </div>
             </a>
           </div>
