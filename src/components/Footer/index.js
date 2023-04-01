@@ -7,32 +7,34 @@ const Footer = () => {
   // We get React Router's navigate object so we can access and adjust browser history
 
   return (
-    <footer className="w-100 mt-auto text-dark p-4">
+    <footer className="w-100 mt-auto text-dark">
       <div className="container text-center mb-5">
         <h4>&copy; {new Date().getFullYear()}</h4>
-        <div class="logoLink">
-          <a href="https://github.com/sadapannord">
-            <img
-              class="image"
-              src={require("../../assets/gitHub-mark.png")}
-              alt="GitHub logo"
-            />
-            <div class="middle">
-              <div class="text">Sada's GitHub Repo</div>
-            </div>
-          </a>
-        </div>
-        <div class="logoLink">
-          <a href="https://www.linkedin.com/in/sada-pan-nord/">
-            <img
-              class="image"
-              src={require("../../assets/LinkedIn-Blue-21@2x.png")}
-              alt="LinkedIn logo"
-            />
-            <div class="middle">
-              <div class="text">Sada's LinkedIn Profile</div>
-            </div>
-          </a>
+        <div class="row">
+          <div class="logoLink col s1 offset-s10">
+            <a href="https://github.com/sadapannord">
+              <img
+                class="image"
+                src={require("../../assets/gitHub-mark.png")}
+                alt="GitHub logo"
+              />
+              <div class="middle">
+                <div class="text">Sada's GitHub Repo</div>
+              </div>
+            </a>
+          </div>
+          <div class="col s1">
+            <a href="https://www.linkedin.com/in/sada-pan-nord/">
+              <img
+                class="image linkedIn"
+                src={require("../../assets/LinkedIn-Blue-21@2x.png")}
+                alt="LinkedIn logo"
+              />
+              <div class="middle">
+                <div class="text">Sada's LinkedIn Profile</div>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </footer>
