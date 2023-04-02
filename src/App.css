@@ -81,9 +81,10 @@ header {
 }
 
 .logoLink {
-  display: block;
+  display: grid;
   height: 100%;  
-  vertical-align: middle;
+  place-items: center;
+  text-align: center;
 }
 
 .text {
@@ -95,7 +96,10 @@ header {
   margin:auto;
   text-align: center;
 }
-
+.projectPic{
+  width:300px;
+  height:auto;
+}
 
 .centering{
   display: flex;
