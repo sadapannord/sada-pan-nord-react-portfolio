@@ -97,10 +97,16 @@ header {
   text-align: center;
 }
 .projectPic{
-  width:300px;
-  height:auto;
+  width:auto;
+  height:200px;
+}
+.projects {
+  color:blue
 }
 
+p {
+  text-align: center;
+}
 .centering{
   display: flex;
   justify-content: center;
