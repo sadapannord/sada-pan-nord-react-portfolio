@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.d43e1f8e.css",
+    "main.js": "/react-gh-pages/static/js/main.702332c7.js",
+    "static/media/2nd-cropped.jpg": "/react-gh-pages/static/media/2nd-cropped.d888366bec5f465727fc.jpg",
+    "static/media/SQL-portfolio.png": "/react-gh-pages/static/media/SQL-portfolio.dc0e546d2ce367221d6a.png",
+    "static/media/newtricious.png": "/react-gh-pages/static/media/newtricious.4e647529dbd8738d89e6.png",
+    "static/media/knowYourMusic.png": "/react-gh-pages/static/media/knowYourMusic.81a3188c5b72e2906c5d.png",
+    "static/media/slack-profile.png": "/react-gh-pages/static/media/slack-profile.b85d148865ef5e7aaf62.png",
+    "static/media/weather-app.png": "/react-gh-pages/static/media/weather-app.4ba464b5fdae39f066e6.png",
+    "static/media/database-manager.png": "/react-gh-pages/static/media/database-manager.ab80a0522795a50af47e.png",
+    "static/media/mvc-blog.png": "/react-gh-pages/static/media/mvc-blog.ad067536c677ba014ab9.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.d43e1f8e.css.map": "/react-gh-pages/static/css/main.d43e1f8e.css.map",
+    "main.702332c7.js.map": "/react-gh-pages/static/js/main.702332c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d43e1f8e.css",
+    "static/js/main.702332c7.js"
+  ]
+}
