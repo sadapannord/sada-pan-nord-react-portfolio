@@ -1,6 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
+import { validateEmail } from "../../utils/helpers";
 
 export default function Contact() {
+  const [email, setEmail] = useState("");
+  const [name, setName] = useState("");
+  const [company, setCompany] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
+  const handleInputChange = (e) => {
+    const { target } = e;
+    const inputType = target.name;
+    const inputValue = target.value;
+    if (inputType === "email") {
+      setEmail(inputValue);
+    } else if (inputType === "name") {
+      setName(inputValue);
+    } else {
+      setCompany(inputValue);
+    }
+  };
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+    console.log(email, name, company);
+    if (!validateEmail(email)) {
+      setErrorMessage("Email is invalid");
+      return;
+    }
+    setName("");
+    setCompany("");
+    setEmail("");
+  };
   return (
     <div>
       <h1>Contact Page</h1>
@@ -12,7 +40,9 @@ export default function Contact() {
           <div className="row">
             <p className="row">
               <strong>Email:</strong>
-              <a href="mailto:sadapan@gmail.com">sadapan@gmail.com</a>
+              <a href="mailto:sadapan@gmail.com" rel="noopener noreferrer">
+                sadapan@gmail.com
+              </a>
             </p>
             <p className="row centering">
               <strong>Phone number:</strong>303-332-7351
@@ -26,8 +56,9 @@ export default function Contact() {
             <p className="row">
               <strong>LinkedIn:</strong>
               <a
-                href="https://www.linkedin.com/in/sada-pan-nord-021160198"
+                href="https://www.linkedin.com/in/sada-pan-nord/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 www.linkedin.com/in/sada-pan-nord-021160198
               </a>
@@ -41,21 +72,13 @@ export default function Contact() {
           <div className="row">
             <form className="form">
               <div className="form-group">
-                <p>First Name:</p>
+                <p>Name:</p>
                 <input
                   className="form-input firstName"
                   type="text"
                   id="firstName"
-                  placeholder="First Name"
-                />
-              </div>
-              <div className="form-group">
-                <p>Last Name:</p>
-                <input
-                  className="form-input lastName"
-                  type="text"
-                  id="lastName"
-                  placeholder="Last Name"
+                  placeholder="Name"
+                  onChange={handleInputChange}
                 />
               </div>
               <div className="form-group">
@@ -65,6 +88,7 @@ export default function Contact() {
                   type="text"
                   id="company"
                   placeholder="Company"
+                  onChange={handleInputChange}
                 />
               </div>
               <div className="form-group">
@@ -74,10 +98,15 @@ export default function Contact() {
                   type="text"
                   id="email"
                   placeholder="email"
+                  onChange={handleInputChange}
                 />
               </div>
               <div className="form-group">
-                <button className="btn btn-primary" type="submit">
+                <button
+                  className="btn btn-primary"
+                  type="submit"
+                  onClick={handleFormSubmit}
+                >
                   Sign
                 </button>
               </div>
