@@ -1,7 +1,7 @@
 {
   "name": "sada-pan-nord-react-portfolio",
   "version": "0.1.0",
-  "homepage": "https://sadapannord.github.io/sada-pan-nord-react-portfolio/",
+  "homepage": "https://sadapannord.github.io/sada-pan-nord-react-portfolio",
   "private": true,
   "dependencies": {
     "@apollo/client": "^3.5.8",

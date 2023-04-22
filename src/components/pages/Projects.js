@@ -34,15 +34,12 @@ export default function Projects({ title }) {
           </a>
         </div>
         <div className="col">
-          <a
-            href="https://watch.screencastify.com/v/qS9N27RaLy9Loog8nNsE"
-            target="_blank"
-          >
-            <h3>Database Manager App</h3>
+          <a href="https://science-science.herokuapp.com/" target="_blank">
+            <h3>Spacetastic Science</h3>
             <img
               className="projectPic"
-              src={require("../../assets/database-manager.png")}
-              alt="Database manager"
+              src={require("../../assets/spacetastic-science.png")}
+              alt="Spacetastic Science"
             ></img>
           </a>
         </div>
@@ -71,14 +68,16 @@ export default function Projects({ title }) {
             ></img>
           </a>
         </div>
-
         <div className="col">
-          <a href="https://fierce-springs-75302.herokuapp.com/" target="_blank">
-            <h3>MVC Blog</h3>
+          <a
+            href="https://watch.screencastify.com/v/qS9N27RaLy9Loog8nNsE"
+            target="_blank"
+          >
+            <h3>Database Manager App</h3>
             <img
               className="projectPic"
-              src={require("../../assets/mvc-blog.png")}
-              alt="MVC blog"
+              src={require("../../assets/database-manager.png")}
+              alt="Database manager"
             ></img>
           </a>
         </div>
