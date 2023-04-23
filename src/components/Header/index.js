@@ -1,6 +1,4 @@
 import React from "react";
-// Import React Router Link component for internal hyperlinks
-// import { Link } from "react-router-dom";
 import "materialize-css";
 
 const Header = () => {
