@@ -22,6 +22,9 @@ export default function Projects({ title }) {
               alt="Professional portfolio using SQL and Handlebars"
             ></img>
           </a>
+          <p style={{ color: "black" }}>
+            A secondary professional portfolio using SQL and handlebars.
+          </p>
         </div>
         <div className="col">
           <a href="https://brachtco.github.io/know-your-music/" target="_blank">
@@ -32,6 +35,11 @@ export default function Projects({ title }) {
               alt="Database manager"
             ></img>
           </a>
+          <p style={{ color: "black" }}>
+            A website where a user can learn more about their favorite artists
+            and bands. The website suggests similar artists, as well as provides
+            a link to the artists YouTube channel.{" "}
+          </p>
         </div>
         <div className="col">
           <a href="https://science-science.herokuapp.com/" target="_blank">
@@ -42,6 +50,11 @@ export default function Projects({ title }) {
               alt="Spacetastic Science"
             ></img>
           </a>
+          <p style={{ color: "black" }}>
+            An application geared towards children wanting to learn about the
+            solar system. Users can create projects, and save information about
+            planetary bodies.
+          </p>
         </div>
       </div>
       <div className="row projects">
@@ -57,6 +70,10 @@ export default function Projects({ title }) {
               alt="Database manager"
             ></img>
           </a>
+          <p style={{ color: "black" }}>
+            A standard weather forecasting application that saves a users'
+            previous searches.
+          </p>
         </div>
         <div className="col">
           <a href="https://agile-castle-97936.herokuapp.com/" target="_blank">
@@ -67,6 +84,11 @@ export default function Projects({ title }) {
               alt="Database manager"
             ></img>
           </a>
+          <p style={{ color: "black" }}>
+            An application that allows users to set up their food preferences
+            and intolerances. Based on the users' selections the app will
+            suggest recipes based on their favorite foods.
+          </p>
         </div>
         <div className="col">
           <a
@@ -80,6 +102,10 @@ export default function Projects({ title }) {
               alt="Database manager"
             ></img>
           </a>
+          <p style={{ color: "black" }}>
+            A demonstration of a MySQL database and its functions that was
+            created during the coding bootcamp.
+          </p>
         </div>
       </div>
     </div>
