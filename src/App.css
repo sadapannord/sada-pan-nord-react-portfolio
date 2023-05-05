@@ -53,6 +53,16 @@
 .col{
   display:table-cell;
   vertical-align: middle;
+  margin:10px;
+
+}
+.rCorners {
+  border-radius: 25px;
+  border: 2px solid #21ad21;
+  padding: auto;
+  width: auto;
+  height: auto;
+  margin: 25px;
 }
 
 header {
@@ -142,6 +152,9 @@ p {
     text-align: center; 
     vertical-align:auto;
   }
+  .rCorners{
+    margin:10px
+  }
   
 }
 @media screen and (max-width: 600px) {
@@ -169,3 +182,4 @@ p {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
