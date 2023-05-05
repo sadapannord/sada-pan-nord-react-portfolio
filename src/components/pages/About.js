@@ -53,24 +53,6 @@ export default function About() {
         </p>
       </div>
       <h4>Hard skills</h4>
-      <div
-        class="row"
-        style={{
-          width: "80%",
-          marginRight: "auto",
-          marginLeft: "auto",
-        }}
-      >
-        <b>Microsoft Office</b>
-        <div class="row">
-          <li class="col s6 rCorners">Word</li>
-          <li class="col s6 rCorners">Outlook</li>
-        </div>
-        <div class="row">
-          <li class="col s6 rCorners">Excel</li>
-          <li class="col s6 rCorners">PowerPoint</li>
-        </div>
-      </div>
       <b>Technical Languages:</b>
       <div
         class="row"
@@ -110,6 +92,24 @@ export default function About() {
         <li class="col rCorners">Bootstrap</li>
         <li class="col rCorners">Materialize</li>
         <li class="col rCorners">Mongoose</li>
+      </div>
+      <div
+        class="row"
+        style={{
+          width: "80%",
+          marginRight: "auto",
+          marginLeft: "auto",
+        }}
+      >
+        <b>Microsoft Office</b>
+        <div class="row">
+          <li class="col s6 rCorners">Word</li>
+          <li class="col s6 rCorners">Outlook</li>
+        </div>
+        <div class="row">
+          <li class="col s6 rCorners">Excel</li>
+          <li class="col s6 rCorners">PowerPoint</li>
+        </div>
       </div>
       <h4>Soft skills</h4>
       <div
