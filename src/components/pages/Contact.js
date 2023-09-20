@@ -1,7 +1,12 @@
 import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
+import emailjs from "@emailjs/browser";
 
 export default function Contact() {
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs.sendForm("service_c7miyci", "template_id", e.target, "public_key");
+  };
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [company, setCompany] = useState("");
@@ -28,7 +33,10 @@ export default function Contact() {
     setName("");
     setCompany("");
     setEmail("");
+    sendEmail();
   };
+
+  // try to get send email to work
   return (
     <div>
       <h1>Contact Page</h1>
